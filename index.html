@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="calculatorIcon.jpg">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="align-center navbar navbar-expand-lg navbar-light pl-5" style="background-color: rgb(231, 231, 231);">
+        <a class="navbar-brand" href="">
+            <img src="calculatorIcon.jpg" width="30" height="30" alt="">
+            <span class="title text-dark " >Calculator <span class="lead">online</span> </span>
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse mt-2" id="navbarSupportedContent">
+            <ul class="align-center navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="">Standard Calculator </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Scientific Calculator</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
+
+    <!-- APP (calculator) -->
+
+    <div class="container text-light app" >
+
+        <div class="calculator" >
+
+            <!-- result -->
+            <div class="row" >
+                <div class=" col-12 text-right text-black-50" >
+                    <p id="preResult" >...</p>
+                </div>
+            </div>   
+            <div class="row" >
+                <div class=" col-12 text-right" >
+                    <h1 id="result" >0</h1>
+                </div>
+            </div>    
+
+            <!-- buttons -->
+            <div class="row" >
+                <button class="btn btn-lg btn-warning px-5 col-3 delete yellow">C</button>
+                <button class="btn btn-lg btn-warning px-5 col-3 plusminus yellow">+/-</button>
+                <button class="btn btn-lg btn-warning px-5 col-3 style yellow">MODE</button>
+                <button class="btn btn-lg btn-warning px-5 col-3 backspace yellow">del</button>
+            </div>
+            <div class="row" >
+                <button class="btn btn-lg btn-primary px-5 col-3 number black">7</button>
+                <button class="btn btn-lg btn-primary px-5 col-3 number black">8</button>
+                <button class="btn btn-lg btn-primary px-5 col-3 number black">9</button>
+                <button class="btn btn-lg btn-warning px-5 col-3 operators yellow">/</button>
+            </div>
+            <div class="row" >
+                <button class="btn btn-lg btn-primary px-5 col-3 number black">4</button>
+                <button class="btn btn-lg btn-primary px-5 col-3 number black">5</button>
+                <button class="btn btn-lg btn-primary px-5 col-3 number black">6</button>
+                <button class="btn btn-lg btn-warning px-5 col-3 operators yellow">x</button>
+            </div>
+            <div class="row" >
+                <button class="btn btn-lg btn-primary px-5 col-3 number black">1</button>
+                <button class="btn btn-lg btn-primary px-5 col-3 number black">2</button>
+                <button class="btn btn-lg btn-primary px-5 col-3 number black">3</button>
+                <button class="btn btn-lg btn-warning px-5 col-3 operators yellow">-</button>
+            </div>
+            <div class="row" >
+                <button class="btn btn-lg btn-primary px-5 col-3 number black">0</button>
+                <button class="btn btn-lg btn-primary px-5 col-3 dot black">.</button>
+                <button class="btn btn-lg btn-dark px-5 col-3 equal">=</button>
+                <button class="btn btn-lg btn-warning px-5 col-3 operators yellow">+</button>                
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+.navbar-brand{
+    font-family: 'Merriweather', serif;  
+    opacity: 1.5;
+}
+
+body{
+    background-image: url("math-linear-mathematics-education-circle-background-geometr-geometrical-plots-seamless-doodle-vector-96290213.jpg");
+}
+
+title{
+    font-size: 1.5rem;
+    background-color: purple;
+}
+.title .lead{
+    font-size: 0.5em;
+    opacity: 0.5;
+    
+}
+
+.app{
+    margin-top: 120px;
+    margin-bottom: 120px;
+    background: linear-gradient(rgb(44, 45, 45), rgb(191, 191, 193));
+    height: 590px;
+    width: 600px;
+    color: white;
+}
+
+#dot{
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.calculator{
+    padding-top: 7%;
+}
+
+#result{
+    padding-top: 20px;
+    padding-bottom: 45px;
+    padding-right: 40px;
+    font-size: 60px;
+    /* width: 590px; */
+    overflow: hidden;
+}
+
